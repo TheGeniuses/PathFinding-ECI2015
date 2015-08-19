@@ -5,6 +5,8 @@
  */
 package pathfinding.eci2015;
 
+import coppelia.remoteApi;
+
 /**
  *
  * @author stein
@@ -15,7 +17,7 @@ public class PathFindingECI2015 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        remoteApi vrep = new remoteApi();
     }
-    
+
 }
